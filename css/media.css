@@ -1,0 +1,125 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    
+    .commerce__card, .custom__card, .footer__card {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
+    .custom__title, .footer__title {
+        font-size: 20px;
+    }
+    
+    .footer__title {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    
+    .nav__burger {
+        display: inline-block;
+        order: 1;
+    }
+    
+    .menu {
+        position: absolute;
+        top: 100%;
+        right: 20px;
+        background: #fff;
+        flex-direction: column;
+        min-width: 200px;
+        transform: scaleY(0);
+    }
+    
+    .nav__burger:focus ~ .menu {
+        transform: scaleY(1);
+    }
+    
+    .nav {
+        position: relative;
+    }
+    
+    .header__content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .commerce__content, .custom__content, .footer__content {
+        flex-wrap: wrap;
+    }
+    
+    .commerce__card, .custom__card {
+        margin-bottom: 30px;
+    }
+    
+    .custom__title {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    
+    .header__title, .info__title, .coll__title {
+        font-size: 35px;
+    }
+    
+    .commerce__card, .custom__card, .footer__card {
+        max-width: 240px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    .commerce__content {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 540px) {
+    .nav__content {
+        flex-wrap: wrap;
+    }
+    
+    .logo {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .nav__form {
+        max-width: 180px;
+    }
+    
+    .header__content, .footer__card {
+        text-align: center;
+    }
+    
+    .commerce__card, .custom__card {
+        max-width: 255px;
+    }
+    
+    .commerce__content, .custom__content, .footer__content {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    
+    .coll {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    
+    .custom__content {
+        margin-top: 40px;
+    }
+}
